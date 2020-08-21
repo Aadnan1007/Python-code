@@ -46,11 +46,11 @@ while True:
          pyttsx3.speak("Launching Ec2 Instance for you")
          os.system("aws ec2 run-instances --image-id ami-0ebc1ac48dfd14136 --count 1 --instance-type t2.micro --key-name myiiec --security-groups allowall")
 
-       elif (("hii" in p) or ("hello" in p) or ("hey" in p)):
-         pyttsx3.speak("hii Adnan now tell me how can I help you")
+       elif (("hii" in p) or ("hello" in p) or ("hey" in p)or ("hi" in p)):
+         pyttsx3.speak("hii user now tell me how can I help you")
 
        elif ("exit" in p) or ("stop" in p) or ("quit" in p):
-         pyttsx3.speak("Exiting now")
+         pyttsx3.speak("Thank you for using me")
          break
        else:
          pyttsx3.speak("This application is not supported in your computer please enter again")
