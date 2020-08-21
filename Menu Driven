@@ -5,8 +5,8 @@ pyttsx3.speak("Welcome user ....")
 
 
 while True:
-       pyttsx3.speak("How may i help u")
-       print("How can I help you :" , end=' ' )
+       pyttsx3.speak("How may I help you")
+       print("How may I help you :" , end=' ' )
        p = input()
        
 
@@ -31,11 +31,11 @@ while True:
          os.system("PowerPoint")
 
        elif  (("run" in p) or  ("open" in p) or ("launch" in p))  and  ("linkedin" in p) :
-         pyttsx3.speak("Opening your linked account  you plz wait")
+         pyttsx3.speak("Opening your linked account please wait")
          os.system("start chrome linked.in")
         
        elif  (("run" in p) or  ("open" in p) or ("launch" in p))  and  ("ms excel" in p) :
-         pyttsx3.speak("Opening ms excel plz wait")
+         pyttsx3.speak("Opening ms excel for you please wait")
          os.system("excel.exe")
      
        elif  (("run" in p) or  ("open" in p) or ("launch" in p) or ("play" in p)) and  ("bol hu" in p) or ("bol" in p) :
