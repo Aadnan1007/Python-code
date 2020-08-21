@@ -1,7 +1,7 @@
 import pyttsx3
 import os
 
-pyttsx3.speak("Welcome user ....")
+pyttsx3.speak("Welcome user this is bot  ....")
 
 
 while True:
@@ -50,7 +50,7 @@ while True:
          pyttsx3.speak("hii user now tell me how can I help you")
 
        elif ("exit" in p) or ("stop" in p) or ("quit" in p):
-         pyttsx3.speak("Thank you for using me")
+         pyttsx3.speak("Thank you for using bot")
          break
        else:
-         pyttsx3.speak("This application is not supported in your computer please enter again")
+         pyttsx3.speak("This application is not supported in your computer please enter again")    
